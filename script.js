@@ -6,7 +6,8 @@ async function testRun() {
   await driver.manage().window().maximize();
   await driver.get("https://demo.nopcommerce.com/");
 
-  await driver.findElement(By.className("search-box store-search-box")).click();
+  await driver.findElement(By.className("//input[@class= 'search-box-text ui-autocomplete-input']")).click();
+  await driver.findElement(By.className("//input[@class='search-text']")).click();
 
   await driver.sleep(5000);
   await driver.quit();
