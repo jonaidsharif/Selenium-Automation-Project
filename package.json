@@ -1,28 +1,15 @@
 {
   "name": "selenium-webdriver",
   "version": "1.0.0",
-  "description": "selenium webdriver project descripition nopcommerce",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node script.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jonaidsharif/Selenium-Automation-Project.git"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "xpath",
-    "locators"
-  ],
+  "keywords": [],
   "author": "Jonaid_Sharif",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jonaidsharif/Selenium-Automation-Project/issues"
-  },
-  "homepage": "https://github.com/jonaidsharif/Selenium-Automation-Project#readme",
+  "description": "",
   "dependencies": {
-    "chromedriver": "^136.0.2",
-    "selenium-webdriver": "^4.32.0"
+    "chromedriver": "^136.0.0"
   }
 }
